@@ -29,7 +29,7 @@ body{
 
 .main-content{
     background-color: rgba(0, 0, 0, 0.554);
-    padding: 5px;
+    padding: 10px;
     color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px;
@@ -52,4 +52,11 @@ body{
     border-radius: 4px;
     border: none;
     background-color: rgb(151, 151, 254);
+    color: white;
+    font-weight: bold;
+}
+
+#new-quote:hover{
+    background-color: rgb(115, 115, 206);
+    transition: 0.3s;
 }
