@@ -23,7 +23,9 @@ const quotes = [{
 //Now we add an event listener on the button to generate a new quote
 //You are able to define the cuntion within the event listener itself
 btn.addEventListener('click', function(){
-
+//math.random doesn't generate a whole number so we wrap it in math.floor
+//and then mltiply it by the lenght of the quotes array to generate a
+//random whole number between 0 and the lenght of the array
     let random = Math.floor(Math.random() * quotes.length);
 
     quote.innerText = quotes[random].quote;
